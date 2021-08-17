@@ -1,0 +1,63 @@
+.new-todo {
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    flex-direction: column;
+    padding: 5px;
+    color: #0c5460;
+    border-radius: 8px;
+}
+
+.todo {
+    background-color: skyblue;
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    border: solid 1px lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-container {
+    height: calc(60vh - 8rem - 50px);
+    overflow-y: auto;
+}
+
+.todo.completed {
+    background-color: green;
+    color: #fff;
+}
+
+.todo.pending {
+    background-color: orange;
+    color: #fff;
+
+}
+
+.todo.done {
+    background-color: #000;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.todos {
+    padding: 5px;
+    width: 100%;
+    border: solid 1px lightblue;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-title {
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: powderblue;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.todo-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
